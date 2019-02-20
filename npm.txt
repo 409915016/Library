@@ -1,0 +1,74 @@
+
+npm install -g vue-cli
+vue init webpack my-project
+cd my-project
+npm i
+npm run dev
+
+
+npm install fastclick -S
+
+npm install stylus --save
+
+npm install stylus-loader --save
+
+npm install axios --save
+
+npm install better-scroll --save
+
+npm install babel-polyfill --save
+
+// 推荐使用axios，--save项目上线之后还要使用的依赖
+npm i vue-resource --save
+
+npm i axios --save
+
+//express生成器（框架）
+npm i -g express-generator
+
+express server
+npm i 
+node bin/www
+
+// node里面ejs依赖，不用jade用html
+npm i ejs --save
+
+//mongodb数据库
+mongo
+use imoocmall //场键数据库
+db.goods.insert({di:101,"name":"mi6","salePrice":2499}) //创建goods集合（表)插入数据
+
+//创建数据库
+db.createCollection("user")
+db.usrers.insert({})
+
+//删除数据库
+db.dropDatabase()
+
+//删除集合
+db.user.drop()
+
+//查询数据
+db.user.find()
+db.user.find().pretty() //格式化数据，win不一定有
+db.user.findOne() //查第一条数据
+db.user.find({子文档:{$eq:38}}) //eq等于，gte大于
+
+//更新数据
+db.user.update({要改的数据}.{$set:{修改数据}}）
+
+//删除数据
+db.user.remove({要删除数据})
+
+//命令行导入数据
+mongoimport -d 数据库名 -c 集合名 --file 文件地址
+
+
+//pm2进程管理
+npm install pm2 -g
+
+//mongoose
+npm i mongoose --save
+
+//滚动加载数据
+npm i vue-infinite-scroll --save
