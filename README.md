@@ -1,2 +1,2 @@
-<h1>base.css //初始化CSS</h1><br>
-<h1>bootst.css //自适应CSS</h1>
+<h3>base.css //初始化CSS<br>
+bootst.css //自适应CSS</h3>
